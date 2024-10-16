@@ -1,0 +1,13 @@
+@media(max-width:2560px) {
+    .card-code {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .qr-code .card-info {
+        padding: 60px 30px 30px;
+        margin-top: -50px
+    }
+
+}
