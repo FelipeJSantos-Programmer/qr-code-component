@@ -1,6 +1,5 @@
 body {
-    background-color: #D5E1EF;
-    /* background-size: cover; */
+    background-size: cover;
     background-position: center;
 }
 
@@ -23,16 +22,27 @@ main {
 }
 
 .card-code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d5e1ef;
+    width: 1080px;
+    height: 540px;
+    box-shadow: rgba(54, 54, 57, 0.169) -8px 20px 29px 0px;
+}
+
+.qr-codes {
     background-color: #fff;
     width: 320px;
     height: 490px;
     padding-top: 15px;
     padding-left: 15px;
     border-radius: 15px;
+    box-shadow: rgba(54, 54, 57, 0.103) 0px 7px 29px 0px;
 }
 
 .qr-codes {
-    scale: 1;
+    scale: 0.72;
 }
 
 .qr-code.scan {
