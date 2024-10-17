@@ -28,8 +28,8 @@ main {
     align-items: center;
     justify-content: center;
     background-color: #d5e1ef;
-    width: 1080px;
-    height: 540px;
+    width: 1920px;
+    height: 740px;
     box-shadow: rgba(54, 54, 57, 0.169) -8px 20px 29px 0px;
 }
 
@@ -44,7 +44,7 @@ main {
 }
 
 .qr-codes {
-    scale: 0.72;
+    scale: 1;
 }
 
 .qr-code.scan {
@@ -56,5 +56,5 @@ main {
 }
 
 .attribution {
-padding-bottom: 20px;
+padding-bottom: 10px;
 }
