@@ -29,7 +29,7 @@ main {
     justify-content: center;
     background-color: #d5e1ef;
     width: 1920px;
-    height: 740px;
+    height: 940px;
     box-shadow: rgba(54, 54, 57, 0.169) -8px 20px 29px 0px;
 }
 
@@ -44,7 +44,7 @@ main {
 }
 
 .qr-codes {
-    scale: 1;
+    scale: 1.1;
 }
 
 .qr-code.scan {
