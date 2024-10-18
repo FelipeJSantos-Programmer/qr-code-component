@@ -14,22 +14,21 @@ main {
 }
 
 .qr-code {
-    scale: 0.62;
+    scale: 0.7;
+    max-height: 20vh;
 }
 
 .text-high {
-    /* padding-top: 20px; */
     justify-items: center;
 }
 
 .text-low {
-    max-width: 13rem;
+    max-width: 12rem;
     padding-top: 10px;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
 }
-
