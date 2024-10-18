@@ -13,11 +13,23 @@ main {
     min-height: 100vh;
 }
 
+.qr-code {
+    scale: 0.62;
+}
+
+.text-high {
+    /* padding-top: 20px; */
+    justify-items: center;
+}
+
 .text-low {
     max-width: 13rem;
     padding-top: 10px;
     font-size: 12px;
 }
 
-
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
 
