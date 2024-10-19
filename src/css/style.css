@@ -3,28 +3,34 @@ body {
     background-color: #D5E1EF;
     background-size: cover;
     background-position: center;
+    margin: 0;
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-
     min-height: 100vh;
+    position: relative;
 }
 
 .container {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .container {
     position: absolute;
     display: inline-block;
-}
+} */
 
 .qr-code {
-    scale: 0.7;
     max-height: 260px;
-}
+    transform: scale(0.7);
 
-.text-high {
-    justify-items: center;
 }
 
 .text-low {
@@ -32,6 +38,8 @@ main {
     padding-top: 10px;
     font-size: 11px;
     color: #898585;
+    text-align: center;
+    margin: auto;
 }
 
 .attribution {
@@ -41,11 +49,11 @@ main {
 }
 
 .rectangle-qrc {
-    position: relative;
+    position: absolute;
     width: 225px;
     height: 345px;
     background-color: #ffff;
-    z-index: -1;
     border-radius: 12px;
+    z-index: -1;
     margin-bottom: -48px;
 }
