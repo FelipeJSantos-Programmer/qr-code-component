@@ -15,7 +15,7 @@ main {
 
 .qr-code {
     scale: 0.7;
-    max-height: 20vh;
+    max-height: 20px;
 }
 
 .text-high {
@@ -26,6 +26,7 @@ main {
     max-width: 12rem;
     padding-top: 10px;
     font-size: 11px;
+    color: #898585;
 }
 
 .attribution {
