@@ -42,8 +42,8 @@ main {
 
 .rectangle-qrc {
     position: relative;
-    width: 230px;
-    height: 350px;
+    width: 225px;
+    height: 345px;
     background-color: #ffff;
     z-index: -1;
     border-radius: 12px;

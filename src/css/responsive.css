@@ -12,4 +12,13 @@
         padding: 220px;
     }
 
+    .rectangle-qrc {
+        position: relative;
+        width: 295px;
+        height: 455px;
+        background-color: #ffff;
+        z-index: -1;
+        border-radius: 12px;
+        margin-bottom: -48px;
+    }
 }
