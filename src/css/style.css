@@ -1,6 +1,6 @@
 body {
     font-family: "Outfit", sans-serif;
-    background-color: #fff;
+    background-color: #D5E1EF;
     background-size: cover;
     background-position: center;
 }
@@ -13,9 +13,14 @@ main {
     min-height: 100vh;
 }
 
+.container {
+    position: absolute;
+    display: inline-block;
+}
+
 .qr-code {
     scale: 0.7;
-    max-height: 20px;
+    max-height: 260px;
 }
 
 .text-high {
@@ -32,4 +37,15 @@ main {
 .attribution {
     font-size: 11px;
     text-align: center;
+    padding-bottom: 10px;
+}
+
+.rectangle-qrc {
+    position: relative;
+    width: 230px;
+    height: 350px;
+    background-color: #ffff;
+    z-index: -1;
+    border-radius: 12px;
+    margin-bottom: -48px;
 }
